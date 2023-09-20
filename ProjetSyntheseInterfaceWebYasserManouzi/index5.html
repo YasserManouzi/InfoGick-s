@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Nous Joindre</title>
+    <link rel="stylesheet" type="text/css" href="modele11.css">
+   <link rel="stylesheet" type="text/css" href="base.css">
+
+
+
+  </head>
+  <body id="global">
+    <header id="entete">
+
+      <h1> <img src="Image/LogoInfo.jpg" height="30px" width="60px"> InfoGick's </img></h1>
+
+      <ul class="menu">
+        <li><a href="index.html"> Accueil </a></li>
+        <li><a href="index2.html"> Produits </a>
+          <ul>
+            <li><a href="index2.html#infoSites">Développements de Sites</a></li>
+            <li><a href="index2.html#infoApp"> Développement d'applications</a></li>
+          </ul>
+        </li>
+        <li><a href="index3.html">Services </a>
+        <ul>
+          <li><a href="index3.html#infoService">Formations</a></li>
+
+          </ul>
+
+          </li>
+        <li><a href="index4.html">Carrières </a></li>
+        <li><a href="index5.html">Nous Joindre </a></li>
+
+
+      </ul>
+      <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.menu li').hover(function(){
+          $('ul:first',this).stop().slideDown();
+        },function(){
+          $('ul:first',this).stop().slideUp();
+        });
+
+      });
+
+    </script>
+</body>
+  <body>
+    <section>
+      <article id="secondaire">
+
+
+    <h3> VOTRE ALLIÉE TECHNOLOGIQUE </h3>
+    <p> Les GICK'S sont les alliés technologiques sur lesquels tout le réseau scolaire publique et les établissements d’enseignement privés du Québec peuvent compter! <br>
+      De plus, bien qu’ils soit spécialisés dans les produits technologiques pour le milieu de l’éducation, les GICK'S vous offrent aussi certains produits pour des organisations œuvrant dans des secteurs diversifiés. </p>
+
+    <a href="index5.html#info" class="button"> Nous contacter</a>
+
+
+      </article>
+        </section>
+        <section>
+            <article id="secondaire4">
+              <h2> Où nous retrouver ? </h2>
+              <img id="ImageTroisRiviere" src="Image/ImageTroisRivierePetit.jpg">
+            <div id="secondaire2">
+              <h5 id="info"> INFOGICK'S</h5>
+              <p> 6340, rue Lachenaie <br>
+                3e étage bureau 2450 <br>
+                Trois-Rivière(Québec) <br>
+                V8D 3Q3 <br>
+                819-454-4343 <br>
+                INFOGICK'S@hotmail.canvas
+
+                <h6> Pour les médias: </h6>
+                <p> communications@hotmail.ca </p>
+            </div>
+
+            <script >
+            $(function() {
+
+              $('#ImageTroisRiviere').mouseover(function() {
+              $(this).attr('src','Image/ImageTroisRiviere.jpg');
+              });
+
+              $('#ImageTroisRiviere').mouseout(function() {
+            $(this).attr('src','Image/ImageTroisRivierePetit.jpg');
+            });
+          });
+          </script>
+            </article>
+
+        </section>
+
+
+        <footer id="pied">
+          <div id="copyright">
+
+
+
+      <a href="https://fr-ca.facebook.com/"><img src="Image/logoFacebook.jpg" height="40px" width="40px"> </a>
+          <a href="https://www.instagram.com/"><img src="Image/logoIG.jpg" height="40px" width="40px"></a>
+          <a href="https://twitter.com/"><img src="Image/logoTwitter.jpg" height="40px" width="40px"></a>
+          <p> © INFOGICK'S X 2021 </p>
+           
+
+</div>
+
+        </footer>
+
+
+
+  </body>
+
+</html>

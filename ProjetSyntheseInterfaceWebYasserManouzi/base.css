@@ -1,0 +1,435 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS
+   © Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   https://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- STYLES DE BASE POUR LE TEXTE ET LES PRINCIPAUX ÉLÉMENTS --- */
+
+/* Page */
+html {
+	font-size: 100%; /* Voir -> Note 1 à la fin de la feuille de styles. */
+    -moz-tab-size: 4;
+    tab-size: 4;
+}
+body {
+	margin: 0;
+	padding: 10px 20px; /* Note -> 2 */
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; /* 3 */
+	font-size: .8em; /* -> 4 */
+	line-height: 1.25; /* -> 5 */
+	color: black;
+	background: white;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0; /* -> 6 */
+}
+h1, h2 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: normal; /* -> 7 */
+}
+h1 {
+	font-size: 3em; /* -> 8 */
+	font-style: none;
+}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.2em;}
+h4 {font-size: 1em;}
+
+/* Listes */
+ul, ol {
+	margin: .75em 0 .75em 24px;
+	padding: 0; /* -> 9 */
+}
+ul {
+	list-style: none;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Paragraphes */
+p {
+	margin: .75em 0;
+}
+li p, blockquote p {
+	margin: .5em 0;
+}
+
+/* Citations */
+blockquote, q {
+	font-size: 1.1em;
+	font-style: italic;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+}
+blockquote {
+	margin: .75em 0 .75em 24px;
+}
+cite {
+	font-style: italic;
+}
+
+/* Liens */
+a {
+	color: mediumblue;
+	text-decoration: underline;
+}
+a:hover, a:focus {
+	color: crimson;
+}
+a img {
+	border: none; /* -> 10 */
+}
+
+
+/* Divers éléments de type en-ligne */
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: dimgray;
+}
+
+
+.menu, .menu ul 
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	line-height: 2em;
+}
+
+.menu a
+{
+color: White;
+background-color: #808080;
+text-decoration: none;
+text-align: center;
+width: 200px;
+display: block;
+}
+.menu a:hover{
+	background-color: black;
+	font-weight: inherit;
+	    font-style: oblique;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+.menu ul{
+	line-height: 1.7em;
+	position: absolute;
+	display: none;
+}
+.menu a
+{
+color: White;
+background-color: #808080;
+text-decoration: none;
+text-align: center;
+width: 200px;
+display: block;
+}
+.menu a:hover{
+	background-color: black;
+	font-weight: inherit;
+	    font-style: oblique;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+.menu ul{
+	line-height: 1.7em;
+	position: absolute;
+	display: none;
+}
+.liste dt{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+}
+/* --- STYLES POUR CERTAINS CONTENUS DES GABARITS --- */
+
+pre, code {
+	font-size: 100%;
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New", monospace;
+}
+pre {
+	width: 90%;
+	overflow: auto;
+	overflow-y: hidden;
+	margin: .75em 0;
+	padding: 12px;
+	background: #eee;
+	color: #555;
+}
+pre strong {
+	font-weight: normal;
+	color: black;
+}
+#copyright {
+	margin: 0px 0 5px 0;
+	text-align: center;
+	font-size: .9em;
+	color: black;
+}
+#copyright a {
+	color: #55AAFF;
+	text-decoration: none;
+}
+#copyright a:hover, #copyright a:focus {
+	text-decoration: underline;
+}
+
+#menu-accordeon {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+}
+#menu-accordeon ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon li {
+   background-color:#729EBF;
+   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   border-radius: 6px;
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40
+}
+#menu-accordeon li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+  font-size:1em
+}
+#menu-accordeon li:hover {
+   background: #729EBF
+}
+#menu-accordeon li li:hover {
+   background: #999;
+}
+#menu-accordeon ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon li:hover li {
+  max-height: 15em;
+}
+
+
+
+#menu-accordeon1 {
+	margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+padding: 0px;
+  text-align: center;
+  width: 180px;
+}
+#menu-accordeon1 ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon1 li {
+   background-color:#480E6D;
+   background-image:-webkit-linear-gradient(top, #480E6D 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #480E6D 0%, #333A40 100%);
+   border-radius: 20px;
+   margin-bottom:20px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #FFFFFF
+}
+#menu-accordeon1 li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #710DF3;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menu-accordeon1 a {
+  display:block;
+  text-decoration: none;
+  color: #F30D83;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+#menu-accordeon1 ul li a, #menu-accordeon1 li:hover li a {
+  font-size:1em
+}
+#menu-accordeon1 li:hover {
+   background: #0D15F3
+}
+#menu-accordeon1 li li:hover {
+   background: #F30DEB;
+}
+#menu-accordeon1 ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon1 li:hover li {
+  max-height: 15em;
+}
+.button {
+				background-color: #729EBF;
+				border: none;
+				color: white;
+				padding: 10px 20px;
+				text-align: left;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 15px;
+				margin: 4px 2px;
+				cursor: pointer;
+				}
+
+				.accordion-container .accordion-title {
+				  position: relative;
+				  margin: 0;
+				  padding: 0.625em 0.625em 0.625em 2em;
+				  background-color: #000;
+				  font-size: 1.25em;
+				  font-weight: normal;
+				  color: #fff;
+				  cursor: pointer;
+				}
+
+				.accordion-container .accordion-title:hover,
+				.accordion-container .accordion-title:active,
+				.accordion-title.open {
+				  background-color: #00aaa7;
+				}
+
+				.accordion-container .accordion-title::before {
+				  content: "";
+				  position: absolute;
+				  top: 50%;
+				  right: 25px;
+				  width: 15px;
+				  height: 2px;
+				  transform: rotate(90deg);
+				  background: #fff;
+				  transition: all .3s ease-in-out;
+				}
+
+				.accordion-container .accordion-title::after {
+				  content: "";
+				  position: absolute;
+				  top: 50%;
+				  right: 25px;
+				  width: 15px;
+				  height: 2px;
+				  background: #fff;
+				  transition: all .2s ease-in-out;
+				}
+
+				.accordion-container .accordion-title.open::before {
+				  transform: rotate(180deg);
+				}
+
+				.accordion-container .accordion-title.open::after {
+				  opacity: 0;
+				}
+
+				.accordion-content {
+				  padding-left: 2.3125em;
+				  border: 1px solid #0079c1;
+				}
+
+				/* CSS for Demo */
+				.accordion-container {
+				  max-width: 350px;
+				  margin: 0px 0px;
+				}
+
+/* --- NOTES ---
+
+1.	Ce "font-size: 100%" est normalement inutile. On l'utilise uniquement
+	pour éviter un bug de redimensionnement du texte dans Internet Explorer.
+
+2.	Par défaut, les navigateurs ont un padding (ou, pour certains, un
+	margin) de 6px pour l'élément BODY. C'est ce qui évite que le texte
+	ne soit complètement collé aux bords de la zone de visualisation du
+	navigateur lorsqu'on affiche une page «brute», sans mise en forme.
+	Mais ce retrait de 6px est un peu faiblard: on le renforce donc.
+	Notez bien que les feuilles de styles des gabarits pourront augmenter
+	ce retrait, ou bien l'annuler.
+
+3.	Voici quelques exemples de collections cohérentes de fontes (propriété
+	CSS "font-family"):
+	font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-family: "Times New Roman", Times, "Nimbus Roman No9 L", serif;
+
+4.	Taille du texte de base de la page. Dépend de la taille du texte par
+	défaut du navigateur (souvent 16px), et des réglages de l'utilisateur.
+	À adapter en fonction de la fonte choisie, et du rendu souhaité.
+	En général, on utilisera une valeur de base entre .65em et 1em
+	(ou 65% et 100%).
+
+5.	Hauteur de ligne. À adapter en fonction de la fonte choisie, et des
+	besoins particuliers (lignes de texte longues ou courtes, titre ou
+	corps de texte...).
+
+6.	En général, les styles par défaut des navigateurs font que les marges
+	en haut et en bas des titres sont équivalentes. Ici, en diminuant la
+	marge du bas, on cherche à rapprocher le titre du contenu qu'il introduit.
+
+7.	Les styles par défaut des navigateurs mettent les titres en gras.
+	Si on souhaite passer à des caractères «normaux», on doit utiliser
+	font-size: normal.
+
+8.	Pour un élément en "font-size: 3em", la taille du texte sera le triple de
+	la taille du texte de l'élément parent.
+	À noter: on aurait pu écrire "font-size: 300%" pour le même résultat.
+
+9.	Par défaut, les listes UL et OL ont un retrait à gauche qui peut être,
+	suivant les navigateurs:
+	- un padding-left de 40px;
+	- ou bien un margin-left de 40px.
+	On met tout le monde d'accord avec une marge à gauche de 24px, et pas
+	de padding.
+
+10.	Les navigateurs donnent souvent aux images placées dans des liens
+	une bordure disgracieuse. On annule ce style souvent gênant en appliquant
+	un "border: none" aux images qui se trouvent à l'intérieur d'un lien.
+
+*/

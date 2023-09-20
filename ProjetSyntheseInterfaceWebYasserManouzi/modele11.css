@@ -1,0 +1,560 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS --- 11
+   © Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   https://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- COULEURS --- */
+
+/* Note: vous pouvez modifier simplement l'aspect de ce gabarit en modifiant
+   uniquement les couleurs de fond (propriétés background) et les couleurs
+   du texte (propriété color).
+   Pour modifier la disposition des blocs, voir plus bas dans la feuille de
+   styles la partie «positionnement». */
+
+/* Général */
+body {
+	color: Blue;
+	background: white;
+
+}
+a {
+	color: #55AAFF;
+}
+a:hover, a:focus {
+	color: #55AAFF;
+}
+strong {
+	color: #55AAFF;
+}
+
+/* Ajout des balises pour les tableaux */
+table {
+  border-collapse: collapse;
+
+}
+
+td {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+/* Conteneur central */
+#centre {
+	background: url(img/11-colgauche.png) repeat-y left top;
+}
+#centre-bis {
+	background: url(img/11-coldroite.png) repeat-y right top;
+}
+
+
+/* Navigation */
+#navigation {
+	background: #090033;
+}
+#navigation a {
+	color: #4C00E6;
+}
+#navigation a:hover, #navigation a:focus {
+	background: #000000;
+}
+
+/* Contenu principal */
+#principal {
+	color: #202020;
+	background: white;
+}
+#principal a {
+	color: #000080;
+}
+#principal a:hover, #principal a:focus {
+	color: #0000FF;
+}
+#principal strong {
+	color: #202020;
+}
+#principal2 {
+	color: white;
+	background: #C0C0C0;
+
+}
+#principal2 a {
+	color: #000080;
+}
+#principal2 a:hover, #principal2 a:focus {
+	color: #0000FF;
+}
+#principal2 strong {
+	color: #202020;
+}
+#principal3 {
+	color: white;
+	background: #D3D3D3;
+
+}
+#principal3 a {
+	color: #000080;
+}
+#principal3 a:hover, #principal2 a:focus {
+	color: #0000FF;
+}
+#principal3 strong {
+	color: #202020;
+}
+
+#principal4 {
+	color: white;
+	background: #D3D3D3;
+
+}
+#principal4 a {
+	color: #000080;
+}
+#principal4 a:hover, #principal4 a:focus {
+	color: #0000FF;
+}
+#principal4 strong {
+	color: #202020;
+}
+#principal4 {
+	color: white;
+	background: #D3D3D3;
+
+}
+
+#principal5 {
+	color: #BFBAC3;
+	background: #F9F9F9;
+}
+#principal5 a {
+	color: #E7E9F0;
+	background-color: #F9F9F9;
+}
+#principal5 a:hover, #principal5 a:focus {
+	color: #E7E9F0;
+}
+#principal5 strong {
+	color: #202020;
+}
+#principal6 {
+	color: #202020;
+	background: white;
+}
+#principal6 a {
+	color: #000080;
+}
+#principal6 a:hover, #principal6 a:focus {
+	color: #0000FF;
+}
+#principal6 strong {
+	color: #202020;
+}
+
+
+
+#principal7 {
+	color: #767676;
+	background: #C1BDBD;
+}
+#principal7 a {
+	color: #000080;
+}
+#principal7 a:hover, #principal7 a:focus {
+	color: #0000FF;
+}
+#principal7 strong {
+	color: #202020;
+}
+/* Contenu secondaire */
+#secondaire {
+	background: none;
+}
+
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+	padding: 20px 5px;
+}
+#global {
+	width: 90%;
+	max-width: 90em;
+	min-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(Image/ImageDeFond.gif);
+	background-size: 100%;
+
+
+}
+#global2 {
+	width: 90%;
+	max-width: 90em;
+	min-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image  : url(Image/imageJoindre.jpg);
+background-repeat: no-repeat;
+}
+
+#global3 {
+	width: 90%;
+	max-width: 90em;
+	min-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image  : url(Image/ImageCarriere.png);
+background-repeat: no-repeat;
+color: white;
+text-align: left;
+}
+
+#global4 {
+	width: 90%;
+	max-width: 90em;
+	min-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+background-color: #0068F0;
+color: white;
+text-align: left;
+}
+#global4 img {
+	position: relative;
+
+}
+
+
+
+/* En-tête */
+#entete {
+	padding: 0px 0;
+
+
+}
+#entete h1 {
+	margin: 0px;
+
+}
+#entete h1 img {
+	float: left;
+	margin: 7px 20px 10px 0px;
+
+}
+
+
+#entete1 {
+	padding: 0px 0;
+text-align: left;
+
+
+}
+#entete1 h1 {
+	margin: 0px;
+}
+#entete1 h1 img {
+	float: left;
+	text-align: left;
+	margin: 7px 20px 10px 0px;
+
+}
+#entete1 .sous-titre {
+	margin: 4px 0 15px 0;
+}
+
+#entete1 img {
+ position: relative;
+ left: 480px;
+
+}
+/* Bloc central */
+#centre-bis {
+	width: 100%;
+	overflow: hidden;
+}
+
+/* Menu de navigation */
+#navigation {
+	float: left;
+	width: 175px;
+}
+#navigation ul {
+	margin: 0;
+	padding: 20px 10px 20px 10px;
+	list-style: none;
+}
+#navigation a {
+	display: block;
+	height: 1%;
+	padding: 6px 10px 6px 10px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+
+}
+
+/* Contenu principal */
+#principal {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 50px 100px;
+	text-align: center;
+}
+#principal > :first-child {
+	margin-top: 60px;
+}
+#principal p, #principal li {
+	line-height: 1.5;
+}
+#principal2 {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 50px 100px;
+
+}
+#principal2 > :first-child {
+	margin-top: 0px;
+}
+#principal2 p, #principal2 li {
+	line-height: 1.5;
+}
+#principal3 {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 50px 100px;
+	text-align: center;
+
+}
+#principal3 > :first-child {
+	margin-top: 0px;
+}
+#principal3 p, #principal3 li {
+	line-height: 1.5;
+}
+#principal4 {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 50px 100px;
+	text-align: center;
+
+}
+#principal4 > :first-child {
+	margin-top: 0px;
+}
+#principal4 p, #principal4 li {
+	line-height: 1.5;
+}
+
+
+
+#principal5 {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 20px;
+	text-align: left;
+
+}
+#principal5 > :first-child {
+	margin-top: 0px;
+}
+#principal5 p, #principal5 li {
+	line-height: 1.5;
+}
+
+#principal6 {
+	margin-left: 0px;
+	margin-right: 135px;
+	padding: 50px 100px;
+	text-align: left;
+}
+#principal6 > :first-child {
+	margin-top: 0px;
+}
+#principal6 p, #principal6 li {
+	line-height: 1.5;
+}
+
+
+
+#principal7 {
+	margin-left: -100px;
+	margin-right: 135px;
+	padding: 50px 100px;
+	text-align: left;
+
+}
+#principal7 img{
+
+padding-left: 200px;
+
+}
+#principal7 > :first-child {
+	margin-top: 0px;
+}
+#principal7 p, #principal7 li {
+	line-height: 1.5;
+}
+
+
+#principal8 {
+	margin-left: -100px;
+	margin-right: 135px;
+	padding: 50px 100px;
+	text-align: left;
+
+}
+#principal8 img{
+
+padding-left: 200px;
+
+}
+#principal8 > :first-child {
+	margin-top: 0px;
+}
+#principal8 p, #principal7 li {
+	line-height: 1.5;
+}
+/* Contenu secondaire */
+#secondaire {
+	margin-left: 0px;
+	margin-right: 154px;
+	padding: 50px 100px;
+	float: center;
+
+	text-align: center;
+	background-color: 	#FFF5EE;
+	/* Ajout de la fonction justifier */
+
+}
+#secondaire1 {
+	float: center;
+	width: 880px;
+	padding: 60px ;
+	text-align: right;
+	background-color: #C0C0C0;
+	/* Ajout de la fonction justifier */
+
+}
+
+#secondaire1 img {
+	position: relative;
+	right: 700px;
+	top: 170px;
+
+
+	/* Ajout de la fonction justifier */
+
+}
+
+#secondaire4 {
+	float: center;
+	width: 880px;
+	padding: 60px ;
+	text-align: right;
+	background-color: #C0C0C0;
+	/* Ajout de la fonction justifier */
+
+}
+#secondaire14 img {
+	position: relative;
+	left: 700px;
+	top: 170px;
+
+
+	/* Ajout de la fonction justifier */
+
+}
+#secondaire2 {
+	float: center;
+	width: 450px;
+	height: 150px;
+	padding: 70px ;
+	text-align: left;
+	background-color: #DCDCDC;
+	/* Ajout de la fonction justifier */
+
+}
+#secondaire3 {
+		margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 20px;
+	text-align: left;
+	background-color: #C0C0C0;
+	/* Ajout de la fonction justifier */
+
+}
+
+/* Pied de page */
+#pied {
+	margin-left: 0px;
+	margin-right: 155px;
+	padding: 10px 50px;
+	text-align: center;
+
+	background: #A9A9A9;
+}
+
+/* Mention de copyright */
+
+
+/* Ajout d'un conteneur Flexbox */
+.flex-container {
+	display: flex;
+}
+
+.flex-container > div {
+	background-color: #0054A8;
+	margin: 10px;
+	padding: 30px;
+	font-size: 15px;
+}
+
+/* Ajout d'une balise pour justifier la conclusion */
+.justify {
+    text-align: justify;
+}
+
+.margin {
+	margin-top: 25px;
+	margin: 25px;
+}
+
+/* Ajout des balises pour le sous-menu */
+.dropdown {
+  display: block;
+  line-height: 10;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  height: 1%;
+  padding: 6px 10px 6px 10px;
+  line-height: 1.5;
+  font-size: .9em;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #202020;
+}
