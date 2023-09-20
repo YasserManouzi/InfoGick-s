@@ -1,4 +1,5 @@
-# InfoGick-s 
+# InfoGick-s ![image](https://github.com/YasserManouzi/InfoGick-s/assets/79117423/a93e0b3b-7223-4305-ae06-dc0afe390736)
+
 
 The website was created as a school project in a web development course. The website belongs to a small computer company that was coded in HTML/CSS, Javascritp and JQuery. This website contains all the information that you need as a visitor or researcher.
 Here is a small descritpion of the general informations :
